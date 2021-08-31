@@ -7,7 +7,7 @@ public class MoveController : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField]
-    float SPEED = 1.0f;
+    float SPEED = 10.0f;
     private Rigidbody2D rigidBody;
     private InputAction moveAction;
     private Vector2 inputAxis;
