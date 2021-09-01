@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class MoveController : MonoBehaviour
 {
@@ -9,21 +8,18 @@ public class MoveController : MonoBehaviour
     [SerializeField]
     float SPEED = 10.0f;
     private Rigidbody2D rigidBody;
-    private InputAction moveAction;
     private Vector2 inputAxis;
 
     void Start()
     {
         this.rigidBody = GetComponent<Rigidbody2D>();
-        var pInput = GetComponent<PlayerInput>();
-        var actionMap = pInput.currentActionMap;
-        moveAction = actionMap["Move"];
     }
 
     // Update is called once per frame
     void Update()
     {
-        inputAxis = moveAction.ReadValue<Vector2>();
+        inputAxis.x = Input.GetAxis("Horizontal");
+        inputAxis.y = Input.GetAxis("Vertical");
     }
 
     private void FixedUpdate()
