@@ -241,7 +241,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -320, y: 10}
+  m_AnchoredPosition: {x: -340, y: 10}
   m_SizeDelta: {x: 1000, y: 335}
   m_Pivot: {x: 0, y: 0}
 --- !u!1 &327902191
@@ -485,7 +485,7 @@ MonoBehaviour:
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 9c0690dc874484488a9c493d8d09f70b, type: 3}
+  - {fileID: 21300000, guid: 5aa9a00fad27d4bd5968dd57553c1997, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -1161,7 +1161,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 2071858692}
   selectedCommands:
-  - {fileID: 2071858695}
+  - {fileID: 2071858696}
   variables: []
   description: 
   stepPause: 0
@@ -1187,8 +1187,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 66
-    y: 70
+    x: 64
+    y: 69
     width: 121
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1257,7 +1257,7 @@ MonoBehaviour:
 '
   description: 
   character: {fileID: 1017536659}
-  portrait: {fileID: 21300000, guid: 9c0690dc874484488a9c493d8d09f70b, type: 3}
+  portrait: {fileID: 21300000, guid: 5aa9a00fad27d4bd5968dd57553c1997, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1269,7 +1269,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2071858696
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1286,7 +1286,7 @@ MonoBehaviour:
 '
   description: 
   character: {fileID: 1017536659}
-  portrait: {fileID: 21300000, guid: 9c0690dc874484488a9c493d8d09f70b, type: 3}
+  portrait: {fileID: 21300000, guid: 5aa9a00fad27d4bd5968dd57553c1997, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1331,7 +1331,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -1170, y: 181}
+  m_AnchoredPosition: {x: -1150, y: 181}
   m_SizeDelta: {x: 300, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2103169809
